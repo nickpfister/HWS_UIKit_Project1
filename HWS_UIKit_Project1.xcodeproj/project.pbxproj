@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE6E05292748A92900DDC132 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6E05292748A92900DDC132 /* HWS_UIKit_Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWS_UIKit_Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6E052C2748A92900DDC132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE6E052E2748A92900DDC132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE6E05302748A92900DDC132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		BE6E05202748A92900DDC132 = {
 			isa = PBXGroup;
 			children = (
-				BE6E052B2748A92900DDC132 /* Project1 */,
+				BE6E052B2748A92900DDC132 /* HWS_UIKit_Project1 */,
 				BE6E052A2748A92900DDC132 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		BE6E052A2748A92900DDC132 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE6E05292748A92900DDC132 /* Project1.app */,
+				BE6E05292748A92900DDC132 /* HWS_UIKit_Project1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE6E052B2748A92900DDC132 /* Project1 */ = {
+		BE6E052B2748A92900DDC132 /* HWS_UIKit_Project1 */ = {
 			isa = PBXGroup;
 			children = (
 				BE6E052C2748A92900DDC132 /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				BE6E053A2748A92A00DDC132 /* Info.plist */,
 				BE6E05402748AB6A00DDC132 /* Content */,
 			);
-			path = Project1;
+			path = HWS_UIKit_Project1;
 			sourceTree = "<group>";
 		};
 		BE6E05402748AB6A00DDC132 /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE6E05282748A92900DDC132 /* Project1 */ = {
+		BE6E05282748A92900DDC132 /* HWS_UIKit_Project1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6E053D2748A92A00DDC132 /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = BE6E053D2748A92A00DDC132 /* Build configuration list for PBXNativeTarget "HWS_UIKit_Project1" */;
 			buildPhases = (
 				BE6E05252748A92900DDC132 /* Sources */,
 				BE6E05262748A92900DDC132 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = HWS_UIKit_Project1;
 			productName = Project1;
-			productReference = BE6E05292748A92900DDC132 /* Project1.app */;
+			productReference = BE6E05292748A92900DDC132 /* HWS_UIKit_Project1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE6E05242748A92900DDC132 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = BE6E05242748A92900DDC132 /* Build configuration list for PBXProject "HWS_UIKit_Project1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE6E05282748A92900DDC132 /* Project1 */,
+				BE6E05282748A92900DDC132 /* HWS_UIKit_Project1 */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = HWS_UIKit_Project1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HWS_UIKit_Project1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -354,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickpfister.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickpfister.HWS-UIKit-Project1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -371,7 +372,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = HWS_UIKit_Project1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HWS_UIKit_Project1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -382,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickpfister.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickpfister.HWS-UIKit-Project1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -393,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE6E05242748A92900DDC132 /* Build configuration list for PBXProject "Project1" */ = {
+		BE6E05242748A92900DDC132 /* Build configuration list for PBXProject "HWS_UIKit_Project1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6E053B2748A92A00DDC132 /* Debug */,
@@ -402,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6E053D2748A92A00DDC132 /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		BE6E053D2748A92A00DDC132 /* Build configuration list for PBXNativeTarget "HWS_UIKit_Project1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6E053E2748A92A00DDC132 /* Debug */,
